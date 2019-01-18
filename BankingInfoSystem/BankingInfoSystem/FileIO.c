@@ -23,6 +23,7 @@ accountInfo fileRead(int* counter)
 	double temDeWit;
 	char temName[10000];
 	FILE* fh;
+
 	//read files until it returns NULL
 	do
 	{
