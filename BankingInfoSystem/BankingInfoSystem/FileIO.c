@@ -21,7 +21,7 @@ accountInfo fileRead(int* counter)
 	accountInfo* acct = (accountInfo*)malloc(1 * sizeof(accountInfo));
 	//creating file pointer name as fh
 	double temDeWit;
-	char temName[1000];
+	char temName[10000];
 	FILE* fh;
 	//read files until it returns NULL
 	do
