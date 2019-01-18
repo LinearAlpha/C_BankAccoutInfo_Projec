@@ -33,7 +33,7 @@ int main()
     //declaration statements
     int userInput = -1,
 		count = 0;
-	accountInfo* acct = fileRead(&count);
+	accountInfo* acct = fileRead(count);
     //reads the information from existing files,
     //and saves it into the acct array.
     //int count = fileRead(acct);
